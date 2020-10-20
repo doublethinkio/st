@@ -5,18 +5,18 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "FuraCode Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
  * 2: scroll and/or utmp
- * 3: SHELL environment variable
+ * 3: SHELL environment variabl
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/bin/zsh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
